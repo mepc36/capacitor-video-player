@@ -636,7 +636,7 @@ public class CapacitorVideoPlayer: CAPPlugin {
         DispatchQueue.main.async {
             self.notifyListeners("jeepCapVideoPlayerEnded", data: info, retainUntilConsumed: true)
             if self.mode == "fullscreen" {
-                self.playerFullscreenExit()
+                // self.playerFullscreenExit()
             }
 
             return
